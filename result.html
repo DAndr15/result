@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bca11343ef.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Главная страница</title>
+    <style>
+      body {
+      font-family: 'Comfortaa', sans-serif;
+
+    }
+
+    .form-header {
+      font-weight: 700;
+      color: #28a745;
+    }
+
+    form {
+      transform: translateY(0px);
+      filter: drop-shadow(1px 2px 4px rgb(207, 206, 206));
+    }
+
+    form:focus-within {
+      transform: translateY(-4px);
+      filter: drop-shadow(1px 2px 4px rgb(115, 114, 114));
+    }
+
+    .material-icons {
+      color: rgb(16, 112, 16);
+    }
+
+    
+ 
+    </style>
+ 
+</head>
+<body>
+  <h1 class="text-center mt-5"><i class="fa-solid fa-cat"></i>Кошки против собак! На чьей ты стороне?<i class="fa-solid fa-dog"></i></h1>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-6 border" style="background-color: blueviolet; height: 500px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/cat3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка первого слайда</h5>
+                <p>Голосуй за кошек! Или проиграешь!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/cat1.jpeg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка второго слайда</h5>
+                <p>Голосуй за кошек! Или проиграешь!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/cat2.jpeg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка третьего слайда</h5>
+                <p>Голосуй за кошек! Или проиграешь!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 border" style="background-color: brown; height: 500px;">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/dog1.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка первого слайда</h5>
+                <p>Голосуй за собак! А то пожалеешь!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/dog2.jpeg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка второго слайда</h5>
+                <p>НГолосуй за собак! А то пожалеешь!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/dog3.jpg" class="d-block w-100" alt="..." style="height: 500px;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Метка третьего слайда</h5>
+                <p>Голосуй за собак! А то пожалеешь!</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Предыдущий</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Следующий</span>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      
+      <!-- Старт основного блока -->
+      
+      <div class="card-group">
+        <div class="card">
+          <div class="cart-header" style="background-image: url(img/6470784.jpg); height: 100px;"><h2 style="text-align: center; padding-top: 25px;"> Голосуй за кошек</h2>
+          </div>
+          <div class="card-body">
+            
+            <ul class="card-text">
+              <li>Затрат на кошку меньше, чем на собаку</li>
+              <li>Коты занимают гораздо меньше места в помещении, доме</li>
+              <li>Не создают неудобств уровнем шума</li>
+              <li>Умеют мурлыкать</li>
+              <li>Минимум ухода</li>
+              <li>Охотятся на грызунов</li>
+              <li>Не надо выгуливать</li>
+              
+            </ul>
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="cart-header" style="background-image: url(img/trails_color.png); height: 100px;"><h2 style="text-align: center; padding-top: 25px;"> Голосуй за собак</h2>
+          </div>
+          <div class="card-body">
+    
+            <ul class="card-text">
+              
+              <li>Любят играть с людьми</li>
+              <li>Собаки разумные, покорные и послушные</li>
+              <li>Собаки созданы служить человеку, действовать на благо семье</li>
+              <li>Легко обучаемы</li>
+              <li>Защищают человека и семью</li>
+              <li>Разные размеры</li>
+              <li>Требуют активного образа жизни</li>
+            </ul>
+    
+          </div>
+        </div>
+        
+      </div>
+      <h1 class="text-center mt-5 form-header">Голосование</h1>
+      <h2 class="text-center mt-5 form-header">Введите свой емайл и введите за кого голосуете (кошку или собаку)</h2>
+  <div class="col-5 mx-auto">
+    <form onsubmit="sendForm(this); return false;">
+      <div class="input-group mb-4">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <span class="material-icons">
+              email
+            </span>
+          </div>
+        </div>
+        <input type="email" class="form-control form-control-lg" placeholder="Email" onfocus="this.placeholder=''"
+          onblur="this.placeholder='Email'" required name="email" autocomplete="email">
+      </div>
+
+      <div class="input-group mb-4">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <span class="material-icons">
+              help
+            </span>
+          </div>
+        </div>
+        <input type="name" class="form-control form-control-lg" placeholder="Кошка или собака"
+          onfocus="this.placeholder=''" onblur="this.placeholder='name'" required minlength="5" name="name">;
+        
+      </div>
+      <p id="info" style="color: red;"></p>
+      <input type="submit" class="btn btn-success btn-block btn-lg" value="Загрузить">
+    </form>
+  </div>
+      <!-- Footer -->
+      <div class="container-fluid py-5 mt-5 text-center">&copy;&nbsp<script></script>&nbsp;Все права людям и их питомцам</div>
+      <!-- End footer -->
+
+      <script>
+        async function sendForm(form) {
+          let response = await fetch("php/reg1.php", {
+            method: "POST",
+            body: new FormData(form),
+          });
+          let result = await response.text();
+    
+          if (result == "exist") {
+            alert(`Вы уже голосовали!`);
+          } else if (result == "ok") {
+            info.innerText = "Вы проголосовали!";
+          }
+    
+        }
+      </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
